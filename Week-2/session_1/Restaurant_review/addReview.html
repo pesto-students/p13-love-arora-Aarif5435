@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+        <h1>Restaurant Reviews</h1>
+        <nav>
+          <a href="/Week-2/session_1/Restaurant_review/index.html">Home</a>
+          <a href="/Week-2/session_1/Restaurant_review/addReview.html">Add Reveiw</a>
+          <a href="/Week-2/session_1/Restaurant_review/about.html">About</a>
+        </nav>
+      </header>
+    <main>
+      <h2>Add Review</h2>
+      <form>
+        <div>
+          <label for="name">Name?</label>
+          <input type="text" name="name" />
+        </div><br>
+        <div>
+          <label for="Restaurant">Restaurant?</label>
+          <select name="Restaurant">
+            <option value="choose">Choose one...</option>
+            <option value="Greek">Greek House</option>
+            <option value="Street cafe">Street Cafe</option>
+          </select>
+        </div><br>
+        <div>
+            <label for="date">Date of visit?</label>
+            <input type="date" name="date" id="date" />
+        </div><br>
+        <div>
+            <label for="rating">Rating?</label>
+            <input type="number" name="rating" id="rating" />
+        </div><br>
+        <div>
+            <label for="details">Details?</label>
+            <textarea name="details" id="details" cols="30" rows="3"></textarea>
+        </div><br>
+        <div>
+            <input type="submit" name="submit" id="submit">
+        </div>
+      </form>
+    </main><br>
+    <footer>
+        © 2022 Restaurant Reveiws
+    </footer>
+  </body>
+</html>
