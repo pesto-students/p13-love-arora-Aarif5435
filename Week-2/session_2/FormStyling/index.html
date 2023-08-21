@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: inline-block;
+            width: 120px;
+        }
+        input, textarea{
+            width: 300px;
+            padding: 10px;
+        }
+        label + input{
+            background-color: rgb(219, 241, 248);
+        }
+    </style>
+</head>
+<body>
+    <h1>Rate a Product</h1>
+    <p><span style="color: red;">*</span> indicates required field.</p>
+    <form>
+        <label for="product">Product<span style="color: red;">*</span></label>
+        <input type="text" d="product"><br>
+        <label for="purchase-date">Purchase Date<span style="color: red;">*</span></label>
+        <input type="date" id="date"><br>
+        <label for="rating">Rating<span style="color: red;">*</span></label>
+        <input type="text" id="rating"><br>
+        <label for="comment">Comments</label>
+        <textarea name="comments" id="comments" cols="30" rows="5"></textarea><br>
+        <input type="submit" value="Submit Rating">
+    </form>
+</body>
+</html>
